@@ -17,6 +17,9 @@ header{
     text-align: center;
     min-height: 80px;
     clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header h1{
@@ -29,15 +32,15 @@ footer{
 
 nav{
     min-width: 20%;
-    min-height: 750px; 
+    min-height: 700px; 
     float: left;
 }
 
 main{
     width: 80%;
     display: grid;
-    grid-template-rows: 300px 450px;
-    height: 750px;
+    grid-template-rows: 350px 450px;
+    height: fit-content;
     float: left;
 }
 
@@ -49,6 +52,9 @@ main{
 .dol{
     background: #DBCC93;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a{
@@ -62,9 +68,14 @@ a{
 
 .dol img{
     border: 4px solid #9692B1;
-    transition: all ease-in-out 0.15s;
+    height: 426px;
+    width: 640px;
 }
 
 .dol img:hover{
     margin: 4px solid grey;
+}
+
+img{
+    transition: all ease-in-out 0.15s;
 }
